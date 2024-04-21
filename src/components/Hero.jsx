@@ -8,7 +8,7 @@ const Hero = () => {
                 <img src={logo} alt="logo" className='w-32 object-contain' />
 
 
-                <button type='button' onClick={() => window.open('https://github.com/majek11')}
+                <button type='button' onClick={() => window.open('https://github.com/')}
                     className='black_btn'>
                     Github
                 </button>
