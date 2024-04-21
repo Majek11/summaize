@@ -129,7 +129,8 @@ const Demo = () => {
           article.summary && (
             <div className='flex flex-col gap-3'>
               <h2 className='font-["Poppins"] font-bold text-gray-600 text-xl'>
-                Article <span className='purple_gradient'>Summary 🖋</span>
+                Article <span className='purple_gradient'>Summary 
+                <span className="text-blue-900">🧵</span></span>
               </h2>
               <div className='summary_box'>
                 <p className='font-["Poppins"] font-medium text-sm text-gray-700'>
