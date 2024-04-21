@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Hero from './components/Hero'
 import Demo from './components/Demo'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Demo />
         </div>
       </main>
+      <Footer />
     </>
   )
 }
