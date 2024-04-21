@@ -24,9 +24,9 @@ const Footer = () => {
   };
 
   return (
-    <footer>
-      <div className="w-full flex justify-center mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
-        <span className="text-black text-sm sm:text-center">
+    <footer className='bg-pink-900'>
+      <div className="w-full flex justify-center mx-auto max-w-screen-xl p-3 md:flex md:items-center md:justify-center">
+        <span className="text-white text-sm sm:text-center">
           © {currentYear} <a href="" className="hover:underline"></a>Made with <span className='text-red-500'>♥</span> by{''}
           <a href="https://github.com"> {creatorName}</a>
         </span>
